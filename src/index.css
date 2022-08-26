@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+/* button {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  color: rgba(255, 255, 255, 0.9);
+  background-color:  rgba(15, 15, 15, 0.75);
+  border: 1px solid rgba(176, 176, 176, 0.25);
+  border-radius: 6px;
+  padding: 15px 40px;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
+button:hover {
+  background-color: rgba(92, 92, 92, 0.9);
+}
+
+button:active {
+  color: #000000;
+  background-color: rgba(66, 66, 66, 0.9);
+} */
+
+.hover {
+  position: absolute;
+  
+  width: 27px;
+  height: 27px;
+  bottom: -14.25px;
+  left: -14.25px;
+  color: rgba(255, 255, 255, 0.9);
+  background-color:  rgba(11, 101, 192, 0.286);
+  border: 1px solid rgba(24, 36, 58, 0.363);
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 10;
+  user-select: none;
+
+}
+
+.hover:hover {
+  background-color: rgba(45, 94, 177, 0.9);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
