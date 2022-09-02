@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import { Navbar, Footer, Sidebar, ThemeSettings, LineChart } from './components/dashboard';
+import { Footer, ThemeSettings } from './components/dashboard';
 import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, ColorMapping, Editor } from './pages/dashboard';
 import './App.css';
 
@@ -23,7 +23,6 @@ import ESIGN from "./pages/main/ESIGN";
 import SIAkun from "./pages/main/SIAkun";
 import SIPPan from "./pages/main/SIPPan";
 import Error from "./pages/main/Error";
-import { AiOutlineMenu } from 'react-icons/ai';
 import UangPersediaan from './pages/dashboard/UangPersediaan';
 
 

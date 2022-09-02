@@ -3,7 +3,6 @@ import { GridComponent, Inject, ColumnsDirective, ColumnDirective, Search, Page 
 
 import { employeesData, employeesGrid } from '../../data/dummy';
 import { Header } from '../../components/dashboard';
-import KembaliBtn from '../../components/dashboard/Charts/KembaliBtn';
 
 const Employees = () => {
   const toolbarOptions = ['Search'];

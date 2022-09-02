@@ -1,5 +1,5 @@
 import { useLoader } from '@react-three/fiber'
-import { EffectComposer, SSR, Bloom, LUT } from '@react-three/postprocessing'
+import { EffectComposer, Bloom, LUT } from '@react-three/postprocessing'
 import { LUTCubeLoader } from 'postprocessing'
 
 export function Effects() {
