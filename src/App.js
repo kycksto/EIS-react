@@ -36,7 +36,7 @@ const App = () => {
       setCurrentColor(currentThemeColor);
       setCurrentMode(currentThemeMode);
     }
-  }, );
+  }, [] );
 
   return (
     <div className={currentMode === 'Dark' ? 'dark' : ''}>
