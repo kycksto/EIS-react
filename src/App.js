@@ -74,7 +74,7 @@ const App = () => {
                 <Route path="/" element={(<Home />)} />
 
                 {/* Pages */}
-                <Route exact path="/" element={<Home/>}/>
+                <Route exact path="/EIS-react" element={<Home/>}/>
                 <Route path="/AppUserManage" element={<AppUserManage/>}/>
                 <Route path="/BPPU" element={<BPPU/>}/>
                 <Route path="/E-Asset" element={<EAsset/>}/>
