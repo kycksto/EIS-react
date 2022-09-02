@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
-import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
+import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft, BsFillArrowUpRightCircleFill, BsFillCalendarMinusFill, BsFillCalendarPlusFill } from 'react-icons/bs';
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
@@ -216,7 +216,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'USA',
+    name: 'UPBJJ‑UT Banda Aceh',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -226,7 +226,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'France',
+    name: 'UPBJJ‑UT Medan ',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -235,7 +235,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'UPBJJ‑UT Batam',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -244,19 +244,19 @@ export const areaCustomSeries = [
 
 export const barChartData = [
   [
-    { x: 'USA', y: 46 },
-    { x: 'GBR', y: 27 },
-    { x: 'CHN', y: 26 },
+    { x: 'UPBJJ-UT Banda Aceh', y: 46 },
+    { x: 'UPBJJ-UT Medan', y: 27 },
+    { x: 'UPBJJ-UT Batam', y: 26 },
   ],
   [
-    { x: 'USA', y: 37 },
-    { x: 'GBR', y: 23 },
-    { x: 'CHN', y: 18 },
+    { x: 'UPBJJ-UT Banda Aceh', y: 37 },
+    { x: 'UPBJJ-UT Medan', y: 23 },
+    { x: 'UPBJJ-UT Batam', y: 18 },
   ],
   [
-    { x: 'USA', y: 38 },
-    { x: 'GBR', y: 17 },
-    { x: 'CHN', y: 26 },
+    { x: 'UPBJJ-UT Banda Aceh', y: 38 },
+    { x: 'UPBJJ-UT Medan', y: 17 },
+    { x: 'UPBJJ-UT Batam', y: 26 },
   ],
 ];
 
@@ -265,7 +265,7 @@ export const barCustomSeries = [
     dataSource: barChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Gold',
+    name: 'Asset Satu',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -279,7 +279,7 @@ export const barCustomSeries = [
     dataSource: barChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'Silver',
+    name: 'Asset Dua',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -293,7 +293,7 @@ export const barCustomSeries = [
     dataSource: barChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'Bronze',
+    name: 'Asset Tiga',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -684,12 +684,126 @@ export const EBudgetingModul = [
   },
 ];
 
+export const BPPUModul = [
+  {
+    key:1,
+    link: 'Line',
+    image:
+      moduleGif,
+    message: 'Perencanaan',
+    desc: 'Perencanaan',
+    time: '9:08 AM',
+  },
+  {
+    key:2,
+    link: 'Area',
+    image:
+      moduleGif,
+    message: 'Target Pencapaian',
+    desc: 'Salma sent you new message',
+    time: '11:56 AM',
+  },
+  {
+    key:3,
+    link: 'Bar',
+    image:
+      moduleGif,
+    message: 'Penganggaran',
+    desc: 'Check your earnings',
+    time: '4:39 AM',
+  },
+  {
+    key:4,
+    link: 'Pie',
+    image:
+      moduleGif,
+    message: 'Monev',
+    desc: 'Assign her new tasks',
+    time: '1:12 AM',
+  },
+  {
+    key:5,
+    link: 'Color-Mapping',
+    image:
+      moduleGif,
+    message: 'Agenda',
+    desc: 'Check your earnings',
+    time: '4:39 AM',
+  },
+  {
+    key:6,
+    link: 'Ecommerce',
+    image:
+      moduleGif,
+    message: 'Laporan',
+    desc: 'Assign her new tasks',
+    time: '1:12 AM',
+  },
+];
+
+export const ExpenditureModul = [
+  {
+    key:1,
+    link: 'Bar',
+    image:
+      moduleGif,
+    message: 'Gaji',
+    desc: 'test desc',
+    time: '9:08 AM',
+  },
+  {
+    key:2,
+    link: 'UangPersediaan',
+    image:
+      moduleGif,
+    message: 'Uang Persediaan',
+    desc: 'Salma sent you new message',
+    time: '11:56 AM',
+  },
+  {
+    key:3,
+    link: 'Bar',
+    image:
+      moduleGif,
+    message: 'Perjalan Dinas',
+    desc: 'Check your earnings',
+    time: '4:39 AM',
+  },
+  {
+    key:4,
+    link: 'Pie',
+    image:
+      moduleGif,
+    message: 'Honorarium',
+    desc: 'Assign her new tasks',
+    time: '1:12 AM',
+  },
+  {
+    key:5,
+    link: 'Color-Mapping',
+    image:
+      moduleGif,
+    message: 'Utilitas',
+    desc: 'Check your earnings',
+    time: '4:39 AM',
+  },
+  {
+    key:6,
+    link: 'Ecommerce',
+    image:
+      moduleGif,
+    message: 'Laporan',
+    desc: 'Assign her new tasks',
+    time: '1:12 AM',
+  },
+];
+
 export const earningData = [
   {
     icon: <MdOutlineSupervisorAccount />,
     amount: '39,354',
     percentage: '-4%',
-    title: 'Pelanggan',
+    title: 'Pegawai',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
     pcColor: 'red-600',
@@ -707,10 +821,9 @@ export const earningData = [
     icon: <FiBarChart />,
     amount: '423,39',
     percentage: '+38%',
-    title: 'Penjualan',
+    title: 'Pemasukkan',
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
-
     pcColor: 'green-600',
   },
   {
@@ -719,6 +832,38 @@ export const earningData = [
     percentage: '-12%',
     title: 'Pengembalian',
     iconColor: 'rgb(0, 194, 146)',
+    iconBg: 'rgb(235, 250, 242)',
+    pcColor: 'red-600',
+  },
+];
+
+export const HeroUP = [
+  {
+    icon: <BsFillArrowUpRightCircleFill />,
+    amount: 'Rp.50.000.000',
+    percentage: '+200%',
+    title: 'Uang Persediaan',
+    iconColor: 'rgb(56, 92, 138)',
+    iconBg: 'rgb(255, 244, 229)',
+    pcColor: 'green-600',
+  },
+  {
+    icon: <BsFillCalendarPlusFill />,
+    amount: '+ Rp.50.000.000',
+    percentage: '+0%',
+    title: 'Pemasukkan',
+    iconColor: 'rgb(0, 194, 146)',
+
+    iconBg: 'rgb(255, 244, 229)',
+    pcColor: 'green-600',
+  },
+  {
+    icon: <BsFillCalendarMinusFill />,
+    amount: '0',
+    percentage: '-10%',
+    title: 'Pengeluaran',
+    iconColor: 'rgb(228, 106, 118)',
+
     iconBg: 'rgb(235, 250, 242)',
     pcColor: 'red-600',
   },
@@ -799,6 +944,18 @@ export const weeklyStats = [
     desc: 'Kemendikbud',
     iconBg: '#00C292',
     pcColor: 'green-600',
+  },
+];
+
+export const TransaksiTerbaruUP = [
+  {
+    title: 'Pembelian ATK'
+  },
+  {
+    title: 'Pembelian Mouse',
+  },
+  {
+    title: 'Pembelian Kebutuhan Lain-lain'
   },
 ];
 
@@ -3224,6 +3381,12 @@ export const pieChartData = [
   { x: 'Facilities', y: 18, text: '18%' },
   { x: 'Taxes', y: 14, text: '14%' },
   { x: 'Insurance', y: 16, text: '16%' },
+];
+
+export const StatistikUP = [
+  { x: 'Dana Awal', y: 16, text: '40%' },
+  { x: 'Dana GU', y: 14.5, text: '36%' },
+  { x: 'Dana TUP', y: 14.5, text: '24%' }
 ];
 
 export const contextMenuItems = [
@@ -5962,10 +6125,8 @@ export const financialChartData = [
   },
 ];
 export const PyramidData = [
-  { x: 'Sweet Treats', y: 120, text: '120 cal' },
-  { x: 'Milk, Youghnut, Cheese', y: 435, text: '435 cal' },
-  { x: 'Vegetables', y: 470, text: '470 cal' },
-  { x: 'Meat, Poultry, Fish', y: 475, text: '475 cal' },
-  { x: 'Fruits', y: 520, text: '520 cal' },
-  { x: 'Bread, Rice, Pasta', y: 930, text: '930 cal' },
+  { x: 'Asset Barang', y: 120, text: '120 unit' },
+  { x: 'Asset Jasa', y: 435, text: '435 unit' },
+  { x: 'Asset Tanah', y: 470, text: '470 unit' },
+  { x: 'Asset Bangunan', y: 475, text: '475 unit' }
 ];

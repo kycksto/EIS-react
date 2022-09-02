@@ -24,6 +24,7 @@ import SIAkun from "./pages/main/SIAkun";
 import SIPPan from "./pages/main/SIPPan";
 import Error from "./pages/main/Error";
 import { AiOutlineMenu } from 'react-icons/ai';
+import UangPersediaan from './pages/dashboard/UangPersediaan';
 
 
 const App = () => {
@@ -72,7 +73,6 @@ const App = () => {
               <Routes>
                 {/* dashboard  */}
                 <Route path="/" element={(<Home />)} />
-                <Route path="/E-Budgeting" element={(<Ebudgeting />)} />
 
                 {/* Pages */}
                 <Route exact path="/" element={<Home/>}/>
@@ -91,6 +91,9 @@ const App = () => {
                 <Route path="/SI-PPan" element={<SIPPan/>}/>
                 <Route path='*' element={<Error/>}/>
                 <Route path="/Ecommerce" element={<Ecommerce/>} />
+
+                {/* Laporan */}
+                <Route path="/UangPersediaan" element={<UangPersediaan/>} />
 
                 {/* Admin  */}
                 <Route path="/orders" element={<Orders />} />

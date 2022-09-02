@@ -11,7 +11,7 @@ const Pyramid = () => {
 
   return (
     <div className="m-4 md:m-10 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
-      <ChartsHeader category="Pyramid" title="Food Comparison Chart" />
+      <ChartsHeader category="UPBJJ-UT" title="Jenis-jenis Asset" />
       <div className="w-full">
         <AccumulationChartComponent
           id="pyramid-chart"
